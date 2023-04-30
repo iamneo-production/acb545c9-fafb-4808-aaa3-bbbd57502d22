@@ -1,0 +1,59 @@
+<div class="topnav">
+        <a class="active2" routerLink="event">BookEvent</a>
+    <div class="login-container">
+      <form action="/action_page.php">
+        <button type="submit" routerLink="/home">Exit</button>
+      </form>
+     </div>
+  </div>
+  
+  <body>
+    <H1>Book Event</H1>
+  
+    <div class="disp">
+      <form [formGroup]=" loginForm" (ngSubmit)="loginUser()">
+  
+  
+        <label id="eventName">EventName: </label>
+        <input type="text" placeholder="Enter the your name" name="EventName" formControlName="EventName"/>
+        <br><br>
+  
+        <label id="ApplicantName">ApplicantName: </label>
+        <input type="text" placeholder="Enter Applicant" name="ApplicantName" formControlName="ApplicantName"/>
+        <br><br>
+  
+        <label id="ApplicantAddress">Applicant Address: </label>
+        <input type="text" placeholder="Enter your address" name="ApplicantAddress" formControlName="ApplicantAddress"/>
+        <br><br>
+  
+        <label id="ApplicantMobile">Applicant Mobile: </label>
+        <input type="text" placeholder="Enter Number" name="ApplicantMobile" formControlName="ApplicantMobile"/>
+        <br><br>
+         </form>
+          </div>
+  
+  <div class="disp1">
+      <form>  
+        <label id="ApplicantEmail">Applicant Email: </label>
+        <input type="text" placeholder="Enter Email" name="ApplicantEmail" formControlName="ApplicantEmail"/>
+        <br><br>
+    
+        <label id="EventAddress">Event Address: </label>
+        <input type="text" placeholder="Enter your address" name="EventAddress" formControlName="EventAddress"/>
+        <br><br>
+  
+        <label id="EventFromDate">EventFromDate: </label>
+        <input type="text" placeholder="Event date" name="EventFromDate" formControlName="EventFromDate"/>
+        <br><br>
+  
+        <label id="EventToDate">EventToDate: </label>
+        <input type="text" placeholder="Event date" name="EventToDate" formControlName="EventToDate"/>
+        <br><br>
+      </form>
+    </div>
+  
+    <div class="bookbutton">
+      <button type="button" onclick="alert('ADD')">BookEvent</button>
+    </div>
+  
+  </body>

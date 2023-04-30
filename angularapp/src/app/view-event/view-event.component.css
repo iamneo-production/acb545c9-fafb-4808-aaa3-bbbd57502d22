@@ -1,0 +1,148 @@
+.disp{
+    padding: 150px;
+    }
+        
+    input
+    {
+        background-color: whitesmoke;  
+        border-radius: 5px;
+        width:250px;
+        height: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+        
+    .disp
+    {
+        
+        display: inline-flex;
+        text-align: left;
+        
+    }
+    
+    .table1{
+        display: inline-flex;
+        text-align: left;
+    }
+    
+    .classbutton{
+        text-align: right;
+        /* padding: 10px; */
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+    }
+        
+        
+    label
+    {
+        font-size: 20px;
+        text-align:left;
+    }
+        
+    button
+    {
+        border: 2px solid grey;
+        border-radius: 10px;
+        background-color: black;
+        color: aliceblue;
+        padding: 20px;   
+        
+    }
+         
+    body
+    {
+        padding: 40px;
+        background-color: rgb(245, 245, 245);
+        text-align: center;
+        
+    }
+
+.EditButtons
+{
+    text-align: right;
+    box-sizing:content-box;
+}
+
+.grid
+{
+    text-align: left;
+    
+    
+}
+
+.topnav 
+{
+    overflow: hidden;
+    background-color: #668f05;
+    padding: 6px;
+    margin-top: 10px;
+    margin: 10px;
+} 
+
+.topnav a 
+{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+
+}
+
+.topnav a:hover 
+{
+    background-color: #ddd;
+    color: black;
+
+}
+
+.topnav a.active 
+{
+    background-color: #2196F3;
+    color: white;
+
+}
+
+.topnav .login-container 
+{
+    float: right;
+
+}
+
+.topnav input[type=text] 
+{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    width: 150px; 
+
+}
+
+.topnav .login-container button 
+{
+    float: right;
+    padding: 4px;
+    margin-top: 40px;
+    margin-right: 16px;
+    background: #000000;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.active1{
+    float: left;
+    padding: 4px;
+    margin-top: 18px;
+    margin-right: 16px;
+    background: #f9f9f9;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}

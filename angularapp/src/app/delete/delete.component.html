@@ -1,0 +1,31 @@
+<p>delete works!</p>
+
+<body>
+    <h1>View Book Event</h1>
+    <br><br>
+    <div>
+      <table borders="2">
+        <tr>
+          <th>EventName</th>
+          <th>ApplicantName</th>
+          <th>ApplicantAddress</th>
+          <th>ApplicantMobile</th>
+          <th>ApplicantEmail</th>
+          <th>EventAddress</th>
+          <th>EventFromDate</th>
+          <th>EventToDate</th>
+        </tr>
+  
+        <tr *ngFor="let u of event">
+          <td>{{u.eventname}}</td>
+          <td>{{u.applicantname}}</td>
+          <td>{{u.applicantaddress}}</td>
+          <td>{{u.applicantmobile}}</td>
+          <td>{{u.applicantemail}}</td>
+          <td>{{u.eventaddress}}</td>
+          <td>{{u.eventfromdate}}</td>
+          <td>{{u.eventtodate}}</td>
+        </tr>
+      </table>
+    </div>
+</body>
