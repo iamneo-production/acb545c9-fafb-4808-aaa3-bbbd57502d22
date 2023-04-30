@@ -1,0 +1,36 @@
+.container{
+    padding: 50px;
+}
+
+input{
+    background-color:whitesmoke;
+    border-radius: 200px;
+    width: 250px;
+    height: 20px;
+    font-size: 15px;
+}
+
+.container{
+    text-align: left;
+    display: inline-flex;
+}
+
+label{
+    font-size: 15px;
+    text-align: left;
+}
+
+body{
+    background-color:#25316D;
+}
+
+
+h2{
+    color: whitesmoke;
+    text-align: right;
+}
+
+p{
+    font-family: Geneva;
+    font-size: 20px;
+}

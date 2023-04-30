@@ -1,0 +1,66 @@
+.input-group{
+    padding:50px;
+    }
+        
+    .Card{
+    color:azure;
+    padding: 20px;
+    text-align:left;
+    display:inline-block;
+    margin-left: 10px;
+    height: 250px;
+    width:250px;
+    }
+    
+    img{
+    cursor: pointer;
+    text-align:right;
+    display:inline-table;
+    margin-right: 20px;
+    height: 150px;
+    width:265px;
+    border-radius: 20px;
+    position: unset;
+    }
+        
+    .background{
+    padding: 20px;
+    background-image: url("https://resources.pulse.icc-cricket.com/photo-resources/2022/09/15/7fb772fb-d58f-48e1-b8b9-052181d78b07/GettyImages-1211112719.jpg?width=845&height=564");
+    background-size:cover;
+    text-align: center;
+    }  
+    .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    max-width: 500px;
+    }
+    
+    .hvr-grow{
+    display:inline-block;
+    vertical-align: middle;
+    }
+    
+    
+            
+    .row::after{
+      content: "";
+      clear: both;
+       display: table;
+        }
+        
+    .bi-trash3-fill{
+    border: radius 25px;
+     }
+      .image{
+        
+         background-size: 100%;
+    
+      } 
+      
+     
+     
+     
+     
+     
+     

@@ -1,0 +1,62 @@
+<body>
+    <div class="container">
+    <form>
+        <div>
+
+      <div class="form-group">
+      <label for="teamName">teamName</label><br>
+      <input type="text" name="teamName" class="form-control">
+      </div><br>
+      <div class="form-group">
+       <label for="teamDescription">teamDescription</label><br>
+       <input type="text" name="teamDescription" class="form-control">
+        </div><br>
+        <div class="form-group">
+        <label for="enoOfplayers">noOfplayers</label><br>
+        <input type="number" name="noOfplayers" class="form-control"><br>
+        </div><br>
+        <div class="form-group">
+        <label for="TeamLocation">TeamLocation</label><br>
+        <input type="text" name="TeamLocation" class="form-control"><br>
+        </div><br>
+        </div>
+    
+            
+        <div>
+        <h2>Enter the player details</h2>
+        <p>Sport person 1</p>
+        </div>
+            
+        <div class="form-group">
+        <label for="FirstName">FirstName</label><br>
+        <input type="text" name="FirstName" class="form-control"><br>
+        </div><br>
+        <div class="form-group">
+        <label for="LastName">LastName</label><br>
+        <input type="text" name="LastName" class="form-control"><br>
+        </div><br>
+        
+       
+        <div class="form-group">
+        <label for="Age">Age</label><br>
+        <input type="number" name="Age" class="form-control"><br>
+        </div><br>
+        <!--<div class="form-group">
+        <label for="gender">Gender</label><br>
+        <input type="text" name="gender" class="form-control"><br>
+        </div><br>-->
+        <label for="Gender">Gender</label><br>
+        <div class="form-check">
+        <input class="form-check-input" type="radio" value="Male" name="Gender" ngModel>
+        <label class="form-check-label">Male</label>
+        </div>
+        <div class="form-check">
+        <input class="form-check-input" type="radio" value="Female" name="Gender" ngModel>
+        <label class="form-check-label">Female</label>
+        </div>
+        <button type="button" onclick="alert('Added Successfully')">Add Players</button>
+
+    </form>
+    </div>
+    </body>
+
