@@ -1,0 +1,23 @@
+* {
+   box-sizing: border-box;
+   
+ }
+
+ .div{
+   background-color: gray;
+ }
+ 
+ 
+ .column {
+   float: left;
+   width: 20%;
+   padding:2px;
+   
+ }
+ 
+
+ .btn{
+   background: purple;
+ }
+
+ 
