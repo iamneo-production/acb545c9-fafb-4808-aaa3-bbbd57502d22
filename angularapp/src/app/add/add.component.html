@@ -1,0 +1,136 @@
+<div class="dis">
+
+
+        <div class="add">
+        <p> Add VENUE</p>
+
+                <br>
+                <form #userForm="ngForm" (ngSubmit)="addvenues(userForm.value)">
+
+                        <input type="text" ngModel name="VenueId" placeholder="Enter the venueId" required>
+
+                        <br>
+
+                        <br>
+
+                       
+              <input type="text" ngModel name="VenueName" placeholder="Enter the venue name" required>
+
+                        <br>
+
+                        <br>
+
+                        <input type="text" ngModel name="venueImageURL" placeholder="Enter the venueImageURL" required>
+
+                        <br>
+
+                        <br>
+
+                        <input type="text" ngModel name="venueDescription" placeholder="Enter the venueDescription"
+                required>
+
+                        <br>
+
+                        <br>
+
+
+
+                        <input type="text" ngModel name="VenueLocation" placeholder="Enter the VenueLocation" required>
+
+                        <br>
+
+                        <br>
+
+                       
+
+                       
+
+            <button>Add venue </button>
+
+             
+
+
+
+
+             
+
+        </form>
+         
+
+    </div>
+
+    <!------------>
+    <div class="disply">
+
+                <div class="tab">
+
+                        <table border="2" class="table  table-striped">
+
+                                <thead>
+
+                                        <tr>
+                        <th scope="col">VenueId</th>
+
+                                                <th scope="col">VenueName</th>
+
+                                                <th scope="col">VenueImageUrl</th>
+
+                                                <th scope="col">venueDescription</th>
+
+                                                <th scope="col">venueLocation</th>
+
+                                           
+                    </tr>
+
+                                    </thead>
+
+                             <tbody>
+
+                                        <tr *ngFor="let v of venues">
+
+                                             <td>{{v.venueId}}</td>
+
+                                            <td>{{v.venueName}}</td>
+
+                                            <td>{{v.venueImageURL}}</td>
+
+                                            <td>{{v.venueDescription}}</td>
+
+                                            <td>{{v.venueLocation}}</td>
+
+                                           
+
+
+
+
+                                            <td><button (click)="deletevenues(v.venueId)" class="fa fa-trash"
+                                style="font-size:10px;color: red ;">delete</button>
+
+
+
+
+                                                </td>
+
+                                             
+
+                                           
+
+                                            </tr>
+
+                                       
+
+                                        <router-outlet></router-outlet>
+
+                                    </tbody>
+
+                            </table>
+
+
+
+
+                    </div>
+
+            </div>
+
+         
+</div>

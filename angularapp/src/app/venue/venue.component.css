@@ -1,0 +1,57 @@
+.input-group{
+    padding:50px;
+       }
+   .Card{
+       color:azure;
+           padding: 20px;
+    text-align:right;
+    display:inline-block;
+    margin-right: 10px;
+   height: 250px;
+   width:250px;
+   
+       }
+   .background{
+   padding: 20px;
+   
+   text-align: center;
+   /* height: 200% */
+   }
+   
+       
+   
+       .hvr-grow{   
+   display:inline-block;   
+   vertical-align: middle;   
+       }
+       div{ 
+   
+       }
+       .column {   
+       float: right;
+    width: 33.33%;   
+   padding: 10px; 
+   color:azure;
+   
+       }
+       .row::after{
+       content: "";
+       clear: both;
+       display: table; 
+       }
+       .bi-trash3-fill{
+           border: radius 25px;
+       }
+   
+       .checked{
+           color: orange;
+       }
+       .background{
+           background-image: url("https://cdn.wallpapersafari.com/66/72/rzIpJA.jpg");
+           background-color: #cccccc;
+           height: 500px;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           position: relative;
+       }
